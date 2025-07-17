@@ -1,0 +1,37 @@
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaTelegramPlane } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+
+function HowToContact() {
+  return (
+    <ul className="flex gap-3 justify-center items-center py-4">
+      <li>
+        <a className="text-xl" href="https://github.com/siaAlizade">
+          <FaGithub />
+        </a>
+      </li>
+
+      <li>
+        <a className="text-xl" href="https://github.com/siaAlizade">
+          <FaTelegramPlane />
+        </a>
+      </li>
+      <li>
+        <a className="text-xl" href="">
+          <FaInstagram />
+        </a>
+      </li>
+      <li>
+        <a
+          className="text-xl"
+          href="https://www.linkedin.com/in/siavash-alizade-795916371?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        >
+          <FaLinkedin />
+        </a>
+      </li>
+    </ul>
+  );
+}
+
+export default HowToContact;
