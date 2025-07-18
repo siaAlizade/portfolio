@@ -1,10 +1,9 @@
 function ContactMe() {
   return (
     <div className="flex flex-col items-center " id="contact-me">
-      <h3 className="text-2xl font-bold mb-2">Lets Design Together</h3>
-      <p className="text-sm mb-6">
-        Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh
-        lectus netus in. Aliquet donec morbi convallis pretium
+      <h3 className="text-2xl font-bold mb-2">Lets Develop Together</h3>
+      <p className="text-base text-center mb-6">
+        Have an idea or need a front-end developer for your next project?
       </p>
       <div className="flex flex-col">
         <input

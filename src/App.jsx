@@ -10,7 +10,7 @@ import Services from "./components/sections/Services";
 function App() {
   return (
     <>
-      <section className="flex flex-col justify-center items-center font-main pt-5 px-6 gap-6">
+      <section className="flex flex-col justify-center items-center font-main pt-5 px-6 gap-12">
         <Navbar />
         <Hero />
         <About />

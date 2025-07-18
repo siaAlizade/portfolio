@@ -1,10 +1,7 @@
 function TradeMark() {
   return (
-    <div className="w-full bg-[#545454]">
-      <p className="text-center">
-        © 2025 <span className=" text-sm text-primary-hover">siaAlizade</span>{" "}
-        All Rights Reserved , Inc.
-      </p>
+    <div className="w-full py-4 bg-gray-100 text-gray-600 text-center text-sm select-none">
+      © 2025 Siavash Alizade. All Rights Reserved.
     </div>
   );
 }

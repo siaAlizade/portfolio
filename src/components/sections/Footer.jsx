@@ -5,7 +5,7 @@ import TradeMark from "../common/TradeMark";
 
 function Footer() {
   return (
-    <footer className="bg-accent mt-8">
+    <footer className=" mt-8">
       <NavList />
       <HowToContact />
       <TradeMark />

@@ -45,7 +45,7 @@ export default function PieChartWithCenterLabel() {
       ]}
       {...size}
     >
-      <PieCenterLabel>My Skills</PieCenterLabel>
+      <PieCenterLabel>My Skills 🙌</PieCenterLabel>
     </PieChart>
   );
 }
