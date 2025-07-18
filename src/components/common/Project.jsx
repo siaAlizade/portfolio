@@ -6,8 +6,8 @@ function Project({
   textClass = "text-projectbg",
 }) {
   return (
-    <div className="flex flex-col w-xs   ">
-      <div className={`${bgClass} rounded-xl mb-4`}>
+    <div className="flex flex-col w-xs ">
+      <div className={`${bgClass} rounded-xl mb-4 shadow-md`}>
         <img className="h-fit" src={src} alt={src} />
       </div>
       <p className={`text-sm ${textClass}`}>{title}</p>
