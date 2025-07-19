@@ -1,3 +1,4 @@
+// old Skills chart
 import * as React from "react";
 import { FaGithub } from "react-icons/fa";
 
