@@ -7,6 +7,8 @@
   --color-primary-hover: #00939a;
   --color-accent: #f8f8f8;
   --color-projectbg: #ffebdb;
+
+  --breakpoint-xs: 450px;
 }
 html {
   scroll-behavior: smooth;

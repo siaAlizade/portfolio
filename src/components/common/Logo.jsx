@@ -1,5 +1,5 @@
 function Logo() {
-  return <p>Sia</p>;
+  return <p className="text-center">THE LOGO</p>;
 }
 
 export default Logo;

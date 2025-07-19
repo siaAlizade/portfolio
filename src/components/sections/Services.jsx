@@ -9,12 +9,14 @@ import { LuLayoutDashboard } from "react-icons/lu";
 function Services() {
   return (
     <div>
-      <h3 className="mb-4 text-2xl font-semibold text-center ">Services</h3>
-      <p className="text-base text-center mb-4">
+      <h3 className=" text-center sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-semibold mb-2 sm:mb-3 md:mb-4 lg:mb-5 xl:mb-6 ">
+        Services
+      </h3>
+      <p className="text-center  text-base md:text-lg lg:text-2xl mb-4">
         I provide a range of web development services focused on quality,
         performance, and user experience:
       </p>
-      <div className="grid grid-cols-2 gap-x-4 gap-y-6 ">
+      <div className="grid grid-cols-1 gap-x-4 gap-y-6 md:grid-cols-2 xl:grid-cols-2 lg:gap-x-6 xl:gap-x-10 ">
         <Service
           svg={<FaCode />}
           title="Web Development"

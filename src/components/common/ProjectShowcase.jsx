@@ -3,7 +3,7 @@ import Project from "./Project";
 function ProjectShowcase() {
   return (
     <>
-      <div className="grid grid-cols-1 justify-items-center gap-y-8 h-[860px] overflow-hidden ">
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 justify-items-center gap-y-8 h-[860px] md:h-[430px] overflow-hidden ">
         <Project
           src="/projectExample.png"
           title="Web Design "
@@ -26,7 +26,13 @@ function ProjectShowcase() {
           textClass="text-rose-300"
         />
       </div>
-      <button className="w-full mt-2 py-2 px-4 text-sm font-medium text-white bg-primary rounded-lg hover:bg-primary-hover focus:bg-primary-hover active:bg-primary-hover transition">
+      <button
+        className="w-full mt-2  text-sm font-medium  rounded-lg 
+        md:text-lg lg:text-2xl bg-primary text-white 
+        px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 xl:px-8 xl:py-3.5
+       hover:bg-primary-hover focus:bg-primary-hover active:bg-primary-hover transition
+      "
+      >
         Show more
       </button>
     </>

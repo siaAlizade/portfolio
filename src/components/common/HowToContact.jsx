@@ -7,24 +7,33 @@ function HowToContact() {
   return (
     <ul className="flex gap-3 justify-center items-center py-4">
       <li>
-        <a className="text-xl" href="https://github.com/siaAlizade">
+        <a
+          className="text-xl hover:text-primary-hover active:text-primary-hover focus:text-primary-hover transition "
+          href="https://github.com/siaAlizade"
+        >
           <FaGithub />
         </a>
       </li>
 
       <li>
-        <a className="text-xl" href="https://github.com/siaAlizade">
+        <a
+          className="text-xl hover:text-primary-hover active:text-primary-hover focus:text-primary-hover transition"
+          href="https://github.com/siaAlizade"
+        >
           <FaTelegramPlane />
         </a>
       </li>
       <li>
-        <a className="text-xl" href="">
+        <a
+          className="text-xl hover:text-primary-hover active:text-primary-hover focus:text-primary-hover transition"
+          href=""
+        >
           <FaInstagram />
         </a>
       </li>
       <li>
         <a
-          className="text-xl"
+          className="text-xl hover:text-primary-hover active:text-primary-hover focus:text-primary-hover transition"
           href="https://www.linkedin.com/in/siavash-alizade-795916371?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
         >
           <FaLinkedin />
