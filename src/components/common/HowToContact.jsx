@@ -9,7 +9,7 @@ function HowToContact() {
       <li>
         <a
           className="text-xl hover:text-primary-hover active:text-primary-hover focus:text-primary-hover transition "
-          href="https://github.com/siaAlizade"
+          href="https://github.com/siaAlz"
         >
           <FaGithub />
         </a>
@@ -18,16 +18,13 @@ function HowToContact() {
       <li>
         <a
           className="text-xl hover:text-primary-hover active:text-primary-hover focus:text-primary-hover transition"
-          href="https://github.com/siaAlizade"
+          href="https://t.me/+989941259563"
         >
           <FaTelegramPlane />
         </a>
       </li>
       <li>
-        <a
-          className="text-xl hover:text-primary-hover active:text-primary-hover focus:text-primary-hover transition"
-          href=""
-        >
+        <a className="text-xl hover:text-primary-hover active:text-primary-hover focus:text-primary-hover transition">
           <FaInstagram />
         </a>
       </li>

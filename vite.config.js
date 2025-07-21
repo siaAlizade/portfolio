@@ -5,6 +5,7 @@ import { qrcode } from "vite-plugin-qrcode";
 import svgr from "vite-plugin-svgr";
 // https://vite.dev/config/
 export default defineConfig({
+  base: "/portfolio/",
   plugins: [react(), tailwindcss(), qrcode(), svgr()],
   server: {
     host: true, // ← VERY important

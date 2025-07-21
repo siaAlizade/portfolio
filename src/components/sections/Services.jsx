@@ -8,7 +8,7 @@ import { LuLayoutDashboard } from "react-icons/lu";
 
 function Services() {
   return (
-    <div>
+    <div id="services">
       <h3 className=" text-center sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-semibold mb-2 sm:mb-3 md:mb-4 lg:mb-5 xl:mb-6 ">
         Services
       </h3>

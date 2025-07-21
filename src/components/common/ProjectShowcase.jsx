@@ -1,25 +1,27 @@
 import Project from "./Project";
+import projectExampl1 from "../../assets/projectExample1.png";
+import projectExampl2 from "../../assets/projectExample2.png";
 
 function ProjectShowcase() {
   return (
     <>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 justify-items-center gap-y-8 h-[860px] md:h-[430px] overflow-hidden ">
         <Project
-          src="/projectExample.png"
+          src={projectExampl1}
           title="Web Design "
           text="Business Landing Page Design "
           bgClass="bg-blue-50"
           textClass="text-blue-500"
         />
         <Project
-          src="/projectExample2.png"
+          src={projectExampl2}
           title="Web Design "
           text="Ecom Web Page Design  "
           bgClass="bg-emerald-50"
           textClass="text-emerald-500"
         />{" "}
         <Project
-          src="/projectExample2.png"
+          src={projectExampl2}
           title="Web Design "
           text="Ecom Web Page Design  "
           bgClass="bg-rose-50"

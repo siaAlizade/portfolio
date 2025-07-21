@@ -18,7 +18,7 @@ function App() {
        gap-12 sm:gap-16 md:gap-20 lg:gap-24 xl:gap-24
       "
       >
-        <div className="w-full">
+        <div id="home" className="w-full">
           <Navbar />
           <Hero />
         </div>
