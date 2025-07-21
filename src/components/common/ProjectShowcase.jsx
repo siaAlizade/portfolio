@@ -29,7 +29,7 @@ function ProjectShowcase() {
         />
       </div>
       <button
-        className="w-full mt-2  text-sm font-medium  rounded-lg 
+        className="cursor-pointer w-full mt-2  text-sm font-medium  rounded-lg 
         md:text-lg lg:text-2xl bg-primary text-white 
         px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 xl:px-8 xl:py-3.5
        hover:bg-primary-hover focus:bg-primary-hover active:bg-primary-hover transition

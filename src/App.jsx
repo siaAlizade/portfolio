@@ -1,6 +1,6 @@
+import { useRef } from "react";
 import About from "./components/sections/About";
 import ContactMe from "./components/sections/ContactMe";
-import Contact from "./components/sections/ContactMe";
 import Footer from "./components/sections/Footer";
 import Hero from "./components/sections/Hero";
 import Navbar from "./components/sections/Navbar";
@@ -8,6 +8,7 @@ import Projects from "./components/sections/Projects";
 import Services from "./components/sections/Services";
 
 function App() {
+  const inputRef = useRef(null);
   return (
     <>
       <section
@@ -19,13 +20,13 @@ function App() {
       "
       >
         <div id="home" className="w-full">
-          <Navbar />
+          <Navbar inputRef={inputRef} />
           <Hero />
         </div>
         <About />
         <Services />
         <Projects />
-        <ContactMe />
+        <ContactMe inputRef={inputRef} />
       </section>
       <Footer />
     </>
