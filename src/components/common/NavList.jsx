@@ -1,4 +1,4 @@
-function NavList({ inputRef }) {
+function NavList({ onContact }) {
   return (
     <ul className="hidden sm:flex gap-6 text-base lg:text-lg justify-center xl:text-xl">
       <li className="hover:text-primary-hover active:text-primary-hover focus:text-primary-hover transition">
@@ -14,13 +14,7 @@ function NavList({ inputRef }) {
         <a href="#projects">Projects</a>
       </li>
       <li
-        onClick={() => {
-          inputRef.current.scrollIntoView({
-            behavior: "smooth",
-            block: "center",
-          });
-          inputRef.current.focus();
-        }}
+        onClick={onContact}
         className="hover:text-primary-hover active:text-primary-hover focus:text-primary-hover transition"
       >
         <a>Contact</a>

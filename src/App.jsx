@@ -9,6 +9,15 @@ import Services from "./components/sections/Services";
 
 function App() {
   const inputRef = useRef(null);
+
+  function handleContact() {
+    inputRef.current.scrollIntoView({
+      behavior: "smooth",
+      block: "center",
+    });
+    inputRef.current.focus();
+  }
+
   return (
     <>
       <section
@@ -20,8 +29,8 @@ function App() {
       "
       >
         <div id="home" className="w-full">
-          <Navbar inputRef={inputRef} />
-          <Hero />
+          <Navbar onContact={handleContact} />
+          <Hero onContact={handleContact} />
         </div>
         <About />
         <Services />
