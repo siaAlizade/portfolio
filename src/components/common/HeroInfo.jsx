@@ -25,7 +25,9 @@ function HeroInfo({ onContact }) {
         px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 xl:px-8 xl:py-3.5
        hover:bg-primary-hover focus:bg-primary-hover active:bg-primary-hover transition"
       >
-        <a onClick={onContact}>Hire Me</a>
+        <a className="cursor-pointer" onClick={onContact}>
+          Hire Me
+        </a>
       </button>
     </div>
   );

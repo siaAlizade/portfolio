@@ -15,7 +15,7 @@ function NavList({ onContact }) {
       </li>
       <li
         onClick={onContact}
-        className="hover:text-primary-hover active:text-primary-hover focus:text-primary-hover transition"
+        className="cursor-pointer hover:text-primary-hover active:text-primary-hover focus:text-primary-hover transition"
       >
         <a>Contact</a>
       </li>
